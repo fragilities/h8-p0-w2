@@ -1,0 +1,94 @@
+Student Name: Zoe Zachary
+Hacktiv8 Assignment Phase 0 Week 2 - Day 1
+PSEUDOCODE EXERCISE
+
+1. Newton Second Law
+
+"Percepatan sebuah benda akan sebanding dengan gaya yang diberikan pada benda dan berbanding terbalik dengan massa benda. Arah percepatan benda sama dengan arah gaya total yang diberikan pada benda."
+
+F = m * a
+
+PSEUDOCODE
+
+START PROGRAM
+STORE MASS as number
+STORE ACCEL as number
+
+MULTIPLY MASS with ACCEL, STORE into FORCE
+PRINT FORCE
+
+Task problem: "Berdasarkan keterangan di atas, buatlah sebuah algoritma / pseudocode untuk menghitung resultan gaya pada sebuah mobil yang memiliki massa benda 600 kg dan ketika didorong oleh tiga orang percepatannya adalah 2 m/s2!"
+
+MASS = 600
+ACCEL = 2
+F = 600 * 2
+
+F = 1200 Newton
+
+---*---*---
+
+2. Tahun Kabisat
+
+"Apa yang kamu ketahui tentang tanggal 29 Februari? Kamu pasti tahu jika suatu tahun memiliki tanggal 29 Februari berarti tahun tersebut merupakan tahun kabisat.
+
+Dalam kalender Gregorian, tahun kabisat memiliki beberapa kriteria yaitu antara lain:
+
+Jika tahun habis di bagi 4 dan tidak habis di bagi 100, atau
+Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400"
+
+PSEUDOCODE
+
+START PROGRAM
+STORE YEAR as number
+
+MODULO YEAR by 4, STORE REMAINDER4
+MODULO YEAR by 100, STORE REMAINDER100
+MODULO YEAR by 400, STORE REMAINDER400
+
+if (REMAINDER4 == 0 AND REMAINDER100 != 0)
+  PRINT YEAR + ' is a leap year.'
+else if (REMAINDER4 == 0 AND REMAINDER100 == 0 AND REMAINDER400 == 0)
+  PRINT YEAR + ' is a leap year.'
+else PRINT YEAR + ' is NOT a leap year.'
+
+---*---*---
+
+3. Laundry Day
+
+"Foxie akan mencuci pakaiannya menggunakan mesin cuci. Pakaian yang akan dicuci oleh Foxie sebanyak 20 dan akan dimasukkan ke mesin cuci. Mesin cuci akan dinyalakan jika semua pakaian Foxie sudah masuk ke mesin cuci.
+
+Bantulah Foxie untuk menghitung jumlah pakaian yang akan dimasukkan ke mesin cuci menggunakan algoritma & pseudocode perulangan!"
+
+PSEUDOCODE
+
+START PROGRAM
+LET CLOTHES be a number with value 0
+
+WHILE CLOTHES < 20
+  DO PUT IN 1 CLOTHE INTO LAUNDRY MACHINE
+  DO CLOTHES = CLOTHES + 1
+
+PRINT 'ALL CLOTHES HAVE BEEN PUT INTO THE LAUNDRY MACHINE'
+
+---*---*---
+
+4. Periksa Kuku
+
+"Seorang guru akan memeriksa kuku siswa-siswinya yang sebanyak 40 orang dengan cara berkeliling kelas. Jika guru menemukan siswa/siswi yang memiliki kuku yang panjang maka guru akan menghukum siswa/siswi tersebut, jika tidak guru akan memuji siswa/siswi tersebut.
+
+Buatlah algoritma & pseudocode untuk permasalahan diatas."
+
+PSEUDOCODE
+
+PROGRAM START
+STORE STUDENTCOUNT as number
+LET OBSERVE_COUNTER be a number with value 0
+STORE ACCEPTABLE_NAIL_LENGTH as number
+
+
+WHILE OBSERVE_COUNTER < STUDENTCOUNT
+  DO GO to the next student
+  DO OBSERVE the student's nail
+  
+  IF NAIL > ACCEPTABLE_NAIL_LENGTH
+    DO SCOLD the student
