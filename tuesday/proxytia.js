@@ -1,3 +1,7 @@
+// Hacktiv8 phase 0 week 2
+// Tugas hari selasa: Menggunakan If Else
+// Zoe Zachary
+
 function printSelamatDatang(nama) {
   console.log('Selamat datang di Dunia Proxytia, ' + nama);
 }
