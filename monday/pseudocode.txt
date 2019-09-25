@@ -15,7 +15,7 @@ STORE MASS as number
 STORE ACCEL as number
 
 MULTIPLY MASS with ACCEL, STORE into FORCE
-PRINT FORCE
+DISPLAY FORCE
 
 Task problem: "Berdasarkan keterangan di atas, buatlah sebuah algoritma / pseudocode untuk menghitung resultan gaya pada sebuah mobil yang memiliki massa benda 600 kg dan ketika didorong oleh tiga orang percepatannya adalah 2 m/s2!"
 
@@ -46,10 +46,10 @@ MODULO YEAR by 100, STORE REMAINDER100
 MODULO YEAR by 400, STORE REMAINDER400
 
 if (REMAINDER4 == 0 AND REMAINDER100 != 0)
-  PRINT YEAR + ' is a leap year.'
+  DISPLAY YEAR + ' is a leap year.'
 else if (REMAINDER4 == 0 AND REMAINDER100 == 0 AND REMAINDER400 == 0)
-  PRINT YEAR + ' is a leap year.'
-else PRINT YEAR + ' is NOT a leap year.'
+  DISPLAY YEAR + ' is a leap year.'
+else DISPLAY YEAR + ' is NOT a leap year.'
 
 ---*---*---
 
@@ -68,7 +68,7 @@ WHILE CLOTHES < 20
   DO PUT IN 1 CLOTHE INTO LAUNDRY MACHINE
   DO CLOTHES = CLOTHES + 1
 
-PRINT 'ALL CLOTHES HAVE BEEN PUT INTO THE LAUNDRY MACHINE'
+DISPLAY 'ALL CLOTHES HAVE BEEN PUT INTO THE LAUNDRY MACHINE'
 
 ---*---*---
 
@@ -89,6 +89,6 @@ STORE ACCEPTABLE_NAIL_LENGTH as number
 WHILE OBSERVE_COUNTER < STUDENTCOUNT
   DO GO to the next student
   DO OBSERVE the student's nail
-  
+
   IF NAIL > ACCEPTABLE_NAIL_LENGTH
     DO SCOLD the student
