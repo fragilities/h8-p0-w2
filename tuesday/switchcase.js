@@ -2,6 +2,8 @@
 // Tugas hari selasa: Menggunakan Switch-Case
 // Zoe Zachary
 
+
+//keterangan: ganti tanggal bulan tahun untuk mencoba validasi
 var tanggal = 3
 var bulan = 11
 var tahun = 2020
