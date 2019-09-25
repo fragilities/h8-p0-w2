@@ -1,3 +1,7 @@
+// Hacktiv8 phase 0 week 2
+// Tugas hari selasa: Menggunakan Switch-Case
+// Zoe Zachary
+
 var tanggal = 3
 var bulan = 11
 var tahun = 2020
