@@ -1,5 +1,5 @@
 // Hacktiv8 phase 0 week 2
-// Tugas hari selasa: Berlatih Perulangan di JavaScript
+// Tugas hari Rabu: Berlatih Perulangan di JavaScript
 // Zoe Zachary
 
 //1. Melakukan Looping Menggunakan While

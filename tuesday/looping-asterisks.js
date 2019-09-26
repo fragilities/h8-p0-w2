@@ -1,5 +1,5 @@
 // Hacktiv8 phase 0 week 2
-// Tugas hari selasa: Perulangan - Play with Asterisks
+// Tugas hari Rabu: Perulangan - Play with Asterisks
 // Zoe Zachary
 
 // 1. Menyusun Barisan Bintang
