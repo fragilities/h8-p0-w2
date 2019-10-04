@@ -7,7 +7,7 @@ function konversiMenit(menit) {
   var hour = 0;
   var minuteRemainder = 0;
 
-  while(menit > 60) {
+  while(menit >= 60) {
     hour += 1;
     menit -= 60;
   }
